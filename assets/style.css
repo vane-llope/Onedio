@@ -1,0 +1,145 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    top: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+footer ul>li>a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer ul>li {
+    line-height: 1rem;
+}
+
+.nav-explenation {
+    font-size: 12px;
+}
+
+.discover button {
+    font-size: 12px;
+}
+
+.about-us a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.centralized {
+    margin: auto;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-navy {
+    background-color: #080c25;
+}
+
+.rotate-270 {
+    transform: rotate(270deg);
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+
+/*swiper*/
+
+.search {
+    width: 30%;
+}
+
+.modal-size {
+    width: 410px;
+}
+
+@media (max-width: 700px) {
+
+    .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+    }
+
+    .search {
+        width: 80%;
+    }
+
+    .modal-size {
+        width: 95%;
+    }
+
+    .space {
+        margin-bottom: 80px;
+    }
+
+
+}
+
+.space {
+    margin-bottom: 150px;
+}
