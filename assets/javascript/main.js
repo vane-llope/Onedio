@@ -79,3 +79,16 @@ var swiper4 = new Swiper(".swiper4", {
         prevEl: ".swiper-button-prev-4",
     },
 });
+//show button in the middle of the page
+window.addEventListener("scroll", function ()
+{
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    if (window.scrollY > window.innerHeight)
+    {
+        scrollToTopBtn.classList.remove("d-none");
+    } else
+    {
+        scrollToTopBtn.classList.add("d-none");
+    }
+});
+
