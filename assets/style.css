@@ -128,7 +128,9 @@ footer ul>li {
 .avatar {
     width: 40px;
     height: 40px;
+
 }
+
 
 .search form {
     border: solid rgb(0, 0, 0) 2px;
@@ -142,34 +144,11 @@ footer ul>li {
     width: 410px;
 }
 
-@media (max-width: 700px) {
-
-    .swiper-pagination-bullet {
-        width: 7px;
-        height: 7px;
-        color: rgb(0, 0, 0);
-        background-color: #fff;
-    }
-
-    .custom-nav .search {
-        margin: 0;
-        width: 100%;
-    }
-
-    .modal-size {
-        width: 95%;
-    }
-
-    .space {
-        margin-bottom: 60px;
-    }
-
-
-}
 
 .space {
-    margin-bottom: 150px;
+    height: 150px;
 }
+
 
 
 
@@ -200,4 +179,126 @@ footer ul>li {
 
 .swiper-slide img {
     width: 100%;
+}
+
+
+.swiper .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #E94B4D;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    top: 97%;
+    transform: translateY(-50%);
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* Add styles for previous and next buttons */
+.swiper2 .swiper-pagination-bullet-active {
+    background-color: #ffffff;
+    opacity: 1;
+    /* Active bullet color */
+}
+
+.swiper2 .swiper-pagination-bullet {
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.swiper-pagination-2 .swiper-pagination-bullet-active {
+    background-color: #ffffff;
+    opacity: 1;
+
+}
+
+
+.swiper3 i {
+    font-size: 15px;
+}
+
+.swiper3 span {
+    font-size: 13px;
+}
+
+
+/*end of swiper*/
+.bg-purple {
+    background-color: #9786BF;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+.custom-avatar {
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    width: 140px;
+    height: 140px;
+    border-bottom: none;
+}
+
+.custom-avatar img {
+    width: 130px;
+    height: 130px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .swiper .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+    }
+
+    .swiper .swiper-pagination-bullet-active {
+        background-color: #E94B4D;
+        opacity: 1;
+        /* Active bullet color */
+    }
+
+    .space {
+        height: 0px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+    }
+
+    .custom-nav .search {
+        margin: 0;
+        width: 100%;
+    }
+
+    .modal-size {
+        width: 95%;
+    }
+
 }
