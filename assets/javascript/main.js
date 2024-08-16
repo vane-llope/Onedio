@@ -66,7 +66,7 @@ var swiper4 = new Swiper(".swiper4", {
     breakpoints: {
         480: {
             slidesPerView: 6,
-            spaceBetween: 20
+            spaceBetween: 30
         }
     },
     pagination: {
